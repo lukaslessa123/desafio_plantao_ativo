@@ -1,3 +1,59 @@
+### API Rest do Blog Laravel
+Este é um projeto de API de descanso de blog, incluindo recursos de blog como categoria, respectivos titulos, autores, conteúdos e tags, usando a estrutura PHP Laravel e o banco de dados MySQL.
+
+### Como usar ?
+Siga estas etapas para ativar este projeto
+
+git clone https://github.com/lukaslessa123/desafio_plantao_ativo.git
+cd post
+composer install
+
+Configure seu arquivo .env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=post
+DB_USERNAME=root
+DB_PASSWORD=
+
+Etapas finais
+php artisan migrate
+php artisan key:generate
+http://localhost:8000
+
+
+
+Para testar este projeto de API, você pode usar o aplicativo Postman . Para fins de autorização, você precisa adicionar os cabeçalhos abaixo
+
+
+
+
+Obrigado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Desafio - Back-End Developer
 
 Sua tarefa é construir uma API e banco de dados para a aplicação CMS (Content Management System). A aplicação é um simples repositório para gerenciar postagens com seus respectivos titulos, autores, conteúdos e tags. Utilize um repositório Git (público, de preferência) para versionamento e disponibilização do código.
@@ -218,5 +274,4 @@ Resposta:
 -   Todos os requisitos acima devem ser cumpridos, seguindo o padrão de rotas estabelecido;
 -   Deve haver um documento de API Blueprint ou OpenAPI (antigo Swagger) descrevendo sua API;
 -   Se você julgar necessário, adequado ou quiser deixar a aplicação mais completa (bônus!) você pode adicionar outras rotas, métodos, meios de autenticação com usuários, etc.#   d e s a f i o _ p l a n t a o _ a t i v o  
- #   d e s a f i o _ p l a n t a o _ a t i v o  
  
