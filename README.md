@@ -22,6 +22,11 @@ php artisan key:generate
 http://localhost:8000
 
 
+### PROGRAMAS
+- Mysql
+- Laragon
+- Postman 
+
 
 Para testar este projeto de API, você pode usar o aplicativo Postman . Para fins de autorização, você precisa adicionar os cabeçalhos abaixo
 
@@ -273,5 +278,6 @@ Resposta:
 -   A API deve ser real e escrita por você. Não serão aceitas APIs escritas de outros autores ou ferramentas que criam APIs automaticamente (Loopback, json-server, etc);
 -   Todos os requisitos acima devem ser cumpridos, seguindo o padrão de rotas estabelecido;
 -   Deve haver um documento de API Blueprint ou OpenAPI (antigo Swagger) descrevendo sua API;
--   Se você julgar necessário, adequado ou quiser deixar a aplicação mais completa (bônus!) você pode adicionar outras rotas, métodos, meios de autenticação com usuários, etc.#   d e s a f i o _ p l a n t a o _ a t i v o  
+-   Se você julgar necessário, adequado ou quiser deixar a aplicação mais completa (bônus!) você pode adicionar outras rotas, métodos, meios de autenticação com usuários, etc.#   d e s a f i o _ p l a n t a o _ a t i v o 
+ 
  
